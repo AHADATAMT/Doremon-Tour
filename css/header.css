@@ -1,4 +1,34 @@
-header video{
-    min-width: 100%;
-    min-height: auto;
+header {
+    margin-top: -10vw;
+    position: relative;
+}
+header video {
+    z-index: -1;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    height: 100%;
+}
+
+header .caption{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 25vw;
+    padding-left: 0vw;
+    background: rgba(255, 255, 255, 0.5098039215686274);
+}
+
+header .caption h1{
+    font-size: 6rem
 }
