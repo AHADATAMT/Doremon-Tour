@@ -24,11 +24,27 @@ header .caption{
     top: 0;
     width: 100%;
     height: 100%;
-    padding-top: 25vw;
+    padding-top: 20vw;
     padding-left: 0vw;
     background: rgba(255, 255, 255, 0.5098039215686274);
 }
 
 header .caption h1{
-    font-size: 6rem
+    font-size: 6rem;
+    line-height: 1;
+    font-weight: 900;
+}
+
+.mini-btn{
+    padding: 20px 35px;
+    font-size: 1.5rem;
+    background: #ffc108;
+    color: #50606a;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.mini-btn:hover{
+    background: #50606a;
+    color: #ffc108;
+    text-decoration: none;
 }

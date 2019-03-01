@@ -1,14 +1,21 @@
 nav {
     background: #fff;
-    height: 90px;
     z-index: 1;
-    background: khaki;
+    background: #ffc108;
     box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.4588235294117647);
 }
 #logo img{
     top: 55px;
     margin: 0 auto;
     display: block;
+    width: 75%;
+}
+li #logo img{
+    top: 0;
+    margin: 0 auto;
+    display: block;
+    width: 100px;
+    left: -50px;
 }
 nav a{
     color: #50606a;
@@ -41,4 +48,8 @@ nav a:hover::after {
     left: -40px;
     opacity: 1;
     transform: rotate(20deg);
+}
+#logo.mobile img{
+    top: 0;
+    width: 4rem;
 }
