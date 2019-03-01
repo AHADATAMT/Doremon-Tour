@@ -2,6 +2,8 @@ nav {
     background: #fff;
     height: 90px;
     z-index: 1;
+    background: khaki;
+    box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.4588235294117647);
 }
 #logo img{
     top: 55px;
@@ -10,5 +12,33 @@ nav {
 }
 nav a{
     color: #50606a;
+    position: relative;
+    font-weight: 900;
 }
-nav a:hover {}
+nav a:hover {
+    text-decoration: none;
+}
+
+nav a::after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 50px;
+    background-image: url('../img/banana.png');
+    background-size: cover;
+    position: absolute;
+    bottom: -70px;
+    left: -25px;
+    transform: rotate(0deg);
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+nav a:hover::after {
+    width: 100px;
+    height: 60px;
+    bottom: -15px;
+    left: -40px;
+    opacity: 1;
+    transform: rotate(20deg);
+}
