@@ -8,3 +8,7 @@ nav {
     margin: 0 auto;
     display: block;
 }
+nav a{
+    color: #50606a;
+}
+nav a:hover {}
