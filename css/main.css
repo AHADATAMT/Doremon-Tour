@@ -1,3 +1,4 @@
-* {
-    font-family: 'Lato', sans-serif;
-}
+@font-face {
+    font-family: minions-font;
+    src: url(../font/MODERNA_.TTF);
+  }
