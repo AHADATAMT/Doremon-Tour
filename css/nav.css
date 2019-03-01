@@ -1,0 +1,10 @@
+nav {
+    background: #fff;
+    height: 90px;
+    z-index: 1;
+}
+#logo img{
+    top: 55px;
+    margin: 0 auto;
+    display: block;
+}
