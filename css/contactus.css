@@ -1,0 +1,63 @@
+.icon_submit{
+    width: 30px;
+    height:30px;
+    transform: rotate(90deg)
+
+}
+.icon_email{
+    width: 30px;
+    height:30px;
+    
+
+}
+/* 
+.email_box{
+    width: 50px;
+ */
+
+ .ava{
+    width:80px;
+    height:80px;
+    border-radius: 50%;
+ }
+
+.org_text{
+    color: rgb(31, 15, 5);
+    font: bold 20px Georgia, serif;
+    border-size: 1px;
+    border-color: orange;
+}
+
+.extra_text{
+    color: rgb(31, 15, 5);
+    font: bold 20px Georgia, serif;
+}
+
+.sub_text{
+    color: rgb(31, 15, 5);
+    font: bold 20px Georgia, serif;
+}
+.footer li a:hover{
+    color: orange;
+}
+
+.social_icon {
+    color:black;
+}
+
+footer{
+    /* background-image: linear-gradient(rgb(170, 252, 220), rgb(226, 226, 73),rgb(93, 216, 154),orange) */
+   
+    background-color:#ffc108;
+}
+
+.email_box{
+    
+    background-color: transparent !important;
+    border:none!important; 
+            border-bottom: 3px solid !important;
+            font-weight: 200;
+            color: black;
+            padding-left: 0;
+}
+}
