@@ -61,8 +61,6 @@ nav a:hover::after {
     max-width: 10vw;
 }
 
-@media screen and (max-width: 900px) {
-    nav.fixed-top{
-        top: 0px;
-    }
+nav button.navbar-toggler{
+    border: 1px solid black;
 }
