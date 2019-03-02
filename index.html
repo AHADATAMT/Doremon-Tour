@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>MINIONS</title>
@@ -17,44 +18,33 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/lib/bootstrap4.css">
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
+        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
         crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="#">Features</a>
-                <a class="nav-item nav-link" href="#">Pricing</a>
-                <a class="nav-item nav-link disabled" href="#">Disabled</a>
-            </div>
-        </div>
-    </nav> -->
-    <nav class="navbar navbar-expand-lg fixed-top">
-        <a id="logo" class=" navbar-brand d-block d-md-none mobile" href="#">
+    <nav class="navbar navbar-inverse bg-inverse navbar-expand-lg fixed-top">
+        <a id="logo" class=" navbar-brand d-block d-lg-none mobile" href="#">
             <img class="position-relative" src="img/logo_nav.png" alt=""></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
             aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <span class="dark-blue-text"><i class="fas fa-bars fa-1x"></i></span>
         </button>
         <div class="collapse navbar-collapse h4" id="navbarTogglerDemo01">
-            <ul class="navbar-nav w-100 justify-content-md-around align-items-lg-center">
+            <ul class="navbar-nav w-100 justify-content-lg-around align-items-lg-center">
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Events</a>
+                    <a class="text-uppercase" href="#events">Events</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">News</a>
+                    <a class="text-uppercase" href="#news">News</a>
                 </li>
                 <li class="nav-item">
                     <a class="text-uppercase" href="#">Tickets</a>
                 </li>
-                <li class="nav-item">
-                    <a id="logo" href="#" class="d-none d-md-block position-relative"><img class="position-absolute"
+                <li class="nav-item logo-li">
+                    <a id="logo" href="#" class="d-none d-lg-block position-relative"><img class="position-absolute"
                             src="img/logo_nav.png" alt=""></a>
                 </li>
                 <li class="nav-item">
@@ -68,8 +58,6 @@
                 </li>
             </ul>
         </div>
-       
-        </a>
     </nav>
     <header>
         <video width="100%" autoplay muted loop id="myVideo">
@@ -78,180 +66,166 @@
         <div class="caption">
             <div class="container">
                 <h1>Minions <br> World Tour</h1>
-                <a class="btn btn-lg mini-btn text-uppercase mt-5 font-weight-bold" href="#">Get ticket!</a>
+                <a class="btn btn-lg mini-btn text-uppercase mt-sm-5 font-weight-bold" href="#">Get ticket!</a>
             </div>
         </div>
     </header>
     <main>
-        <section id="event"></section>
-        <section id="news"></section>
-        <section>
-         
-
-
-
-        <div class="card border-light text-center">
-            <img
-            src="img/events/upcoming.jpg"
-            class="img-fluid"
-            alt="past-tours"
-          />
-          <div class="card-body">
-            <h1 class="card-title">OUR NEXT BIG EVENT</h1>
-            <p class="card-text">
-                The Minions is storming Saigon, Vietnam in a blaze of banana this April. 
-                <p class="text-justify">That’s right, the mischievous yellow henchmen, along with super villain Gru and his girls, Margo, Edith & Agnes are eager to meet their Viet fans at a brand spanking new studium right in the heart of the young city. Have you got your tickets yet?</p>
-            </p>
-          </div>
-          <div class="card-footer bg-gradient-dark">
-              <a href="#" class="btn btn-warning">SECURE YOUR TICKET</a>
-            </div>
-        </div>
-      </div>
-
-        <div class="container">
-          <div class="card-deck pt-5">
-            <div class="card">
-              <img
-                src="img/events/this-year.jpg"
-                class="img-fluid"
-                style="height: 298.84px"
-                alt="past-tours"
-              />
-              <div class="card-body">
-                <h4 class="card-title">FUTURE EVENTS</h4>
-                <p class="card-text">
-                  Join Gru, his daughters and the mischievous Minions on a
-                  heartwarming and thrilling tour.
-                </p>
-              </div>
-              <div class="card-footer bg-dark">
-                <!--Box2-->
-                <div class="container pl-0">
-                  <div class="row">
-                    <div class="col-8 text-left my-auto">
-                      <small class="font-weight-bold text-white">
-                        <h6 class="my-0">Location: Europe & Middle East</h6>
-                      </small>
+        <section id="events">
+            <div class="container">
+                <div class="card border-light text-center">
+                    <img src="img/events/upcoming.jpg" class="img-fluid" alt="past-tours" />
+                    <div class="card-body">
+                        <h1 class="card-title">OUR NEXT BIG EVENT</h1>
+                        <p class="card-text">
+                            The Minions is storming Saigon, Vietnam in a blaze of banana this April.
+                            <p class="text-justify">That’s right, the mischievous yellow henchmen, along with super
+                                villain
+                                Gru and his girls, Margo, Edith & Agnes are eager to meet their Viet fans at a brand
+                                spanking new studium right in the heart of the young city. Have you got your tickets
+                                yet?
+                            </p>
+                        </p>
                     </div>
-                    <div class="col-4 pr-0">
-                      <a href="#" class="btn btn-warning rounded float-right"
-                        >EXPLORE</a
-                      >
+                    <div class="card-footer bg-gradient-dark">
+                        <a href="#" class="btn btn-warning">SECURE YOUR TICKET</a>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-            <div class="card">
-              <img
-                src="img/events/past-year.jpg"
-                class="img-fluid"
-                style="height: 298.84px"
-                alt="past-tours"
-              />
-              <div class="card-body">
-                <h4 class="card-title">PAST EVENTS</h4>
-                <p class="card-text">
-                  Relieve the happiest moments of all time.
-                </p>
-              </div>
-              <div class="card-footer bg-dark">
-                <!--Box2-->
-                <div class="container pl-0">
-                  <div class="row">
-                    <div class="col-8 text-left my-auto">
-                      <small class="font-weight-bold text-white">
-                        <h6 class="my-0">Location: Asia - Pacific</h6>
-                      </small>
+            <div class="container">
+                <div class="card-deck pt-5">
+                    <div class="card">
+                        <img src="img/events/this-year.jpg" class="img-fluid" style="height: 298.84px"
+                            alt="past-tours" />
+                        <div class="card-body">
+                            <h4 class="card-title">FUTURE EVENTS</h4>
+                            <p class="card-text">
+                                Join Gru, his daughters and the mischievous Minions on a
+                                heartwarming and thrilling tour.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <!--Box2-->
+                            <div class="container pl-0">
+                                <div class="row">
+                                    <div class="col-8 text-left my-auto">
+                                        <small class="font-weight-bold text-white">
+                                            <h6 class="my-0">Location: Europe & Middle East</h6>
+                                        </small>
+                                    </div>
+                                    <div class="col-4 pr-0">
+                                        <a href="#" class="btn btn-warning rounded float-right">EXPLORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-4 pr-0">
-                      <a href="#" class="btn btn-warning rounded float-right"
-                        >EXPLORE</a
-                      >
+                    <div class="card">
+                        <img src="img/events/past-year.jpg" class="img-fluid" style="height: 298.84px"
+                            alt="past-tours" />
+                        <div class="card-body">
+                            <h4 class="card-title">PAST EVENTS</h4>
+                            <p class="card-text">
+                                Relieve the happiest moments of all time.
+                            </p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <!--Box2-->
+                            <div class="container pl-0">
+                                <div class="row">
+                                    <div class="col-8 text-left my-auto">
+                                        <small class="font-weight-bold text-white">
+                                            <h6 class="my-0">Location: Asia - Pacific</h6>
+                                        </small>
+                                    </div>
+                                    <div class="col-4 pr-0">
+                                        <a href="#" class="btn btn-warning rounded float-right">EXPLORE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
+        </section>
+        <section id="news">
+            <div class="container pt-5">
+                <div class="card-columns">
+                    <div class="card">
+                        <img src="img/news/news5.jpg" class="card-img-top" alt="recent-news">
+                        <div class="card-body">
+                            <h5 class="card-title">Sugary realm of Sweet Surrender</h5>
+                            <p class="card-text">This is where you’ll find everything from plush or plastic minions
+                                and unicorns to Minion-inspired sweet treats.</p>
+                        </div>
+                    </div>
+                    <div class="card p-3">
+                        <blockquote class="blockquote mb-0 card-body">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="card">
+                        <img src="img/news/news2.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Despicable Weekend continues</h5>
+                            <p class="card-text">At the crazy cool show you can get your groove on with the all-singing,
+                                all-dancing, all-noisy Minions
+                                as they celebrate the park’s opening in typically eccentric Minion style.</p>
+                            <p class="card-text"><small class="text-muted">By Lee Moran &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
+                                    <cite>2 weeks ago</cite></small></p>
+                        </div>
+                    </div>
+                    <div class="card bg-primary text-white text-center p-3">
+                        <blockquote class="blockquote mb-0">
+                            <p>Well, to be frank, it is an outrageous ocular onslaught of retina searing banana yellow,
+                                neon-bright shopfronts and marvellous Minion mayhem.</p>
+                            <footer class="blockquote-footer text-white">
+                                <small>
+                                    Taylor Swift, <cite title="Source Title">New York 2018</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h5 class="card-title">Despicable Me, please!</h5>
+                            <p class="card-text">This card has a regular title and short paragraphy of text below it.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/news/news7.png" class="card-img-top" alt="...">
+                    </div>
+                    <div class="card p-3 text-right">
+                        <blockquote class="blockquote mb-0">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                            <footer class="blockquote-footer">
+                                <small class="text-muted">
+                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">BREAKS RECORD FOR HIGHEST-GROSSING U.S TOUR</h5>
+                            <p class="card-text">This is another card with title and supporting text below. This card
+                                has some additional content to make it slightly taller overall.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-      <div class="container pt-5">
-        <div class="card-columns">
-            <div class="card">
-              <img src="img/news/news5.jpg" class="card-img-top" alt="recent-news">
-              <div class="card-body">
-                <h5 class="card-title">Sugary realm of Sweet Surrender</h5>
-                <p class="card-text">This is where you’ll find everything from plush or plastic minions 
-                  and unicorns to Minion-inspired sweet treats.</p>
-              </div>
-            </div>
-            <div class="card p-3">
-              <blockquote class="blockquote mb-0 card-body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer">
-                  <small class="text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card">
-              <img src="img/news/news2.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Despicable Weekend continues</h5>
-                <p class="card-text">At the crazy cool show you can get your groove on with the all-singing, all-dancing, all-noisy Minions 
-                  as they celebrate the park’s opening in typically eccentric Minion style.</p>
-                <p class="card-text"><small class="text-muted">By Lee Moran &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp <cite>2 weeks ago</cite></small></p>
-              </div>
-            </div>
-            <div class="card bg-primary text-white text-center p-3">
-              <blockquote class="blockquote mb-0">
-                <p>Well, to be frank, it is an outrageous ocular onslaught of retina searing banana yellow, 
-                  neon-bright shopfronts and marvellous Minion mayhem.</p>
-                <footer class="blockquote-footer text-white">
-                  <small>
-                    Taylor Swift, <cite title="Source Title">New York 2018</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card text-center">
-              <div class="card-body">
-                <h5 class="card-title">Despicable Me, please!</h5>
-                <p class="card-text">This card has a regular title and short paragraphy of text below it.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="img/news/news7.png" class="card-img-top" alt="...">
-            </div>
-            <div class="card p-3 text-right">
-              <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer">
-                  <small class="text-muted">
-                    Someone famous in <cite title="Source Title">Source Title</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <h5 class="card-title">BREAKS RECORD FOR HIGHEST-GROSSING U.S TOUR</h5>
-                <p class="card-text">This is another card with title and supporting text below. This card has some additional content to make it slightly taller overall.</p>
-                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-      <section id="news"></section>
-      <section id="ticket"></section>
-      <section id="sponsors"></section>
-      <section id="shop"></section>
+        </section>
+        <section id="sponsors"></section>
+        <section id="shop"></section>
     </main>
    
 

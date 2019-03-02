@@ -64,6 +64,7 @@ footer{
             font-weight: 200;
             color: black;
             padding-left: 0;
+<<<<<<< HEAD
             width: 250PX !important;
 }
 
@@ -87,4 +88,6 @@ border:0 !important;
 }
 footer a:hover{
     color:white !important;
+=======
+>>>>>>> 6ab813521011607a7794eac5bd1d9aa9e7c28c4a
 }

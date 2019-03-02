@@ -1,10 +1,42 @@
-<<<<<<< HEAD
 @font-face {
     font-family: minions-font;
     src: url(../font/MODERNA_.TTF);
-  }
-=======
-* {
-    font-family: 'Lato', sans-serif;
 }
->>>>>>> 846a2b5218b99b1e5560784499849879dd699b2b
+
+*{
+    font-family: 'minions-font';
+}
+
+@media screen and (max-width: 500px) {
+    header .caption h1 {
+        font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 768px) {
+    header .caption h1 {
+        font-size: 4.5rem;
+    }
+}
+@media screen and (max-width: 990px) {
+    * {
+        font-size: 16px;
+    }
+  
+    nav.fixed-top{
+        top: 0px;
+    }
+
+    #logo.mobile img{
+        width: 2rem;
+    }
+   
+    header {
+        margin-top: 8vw;
+    }
+
+    header .caption{
+        padding-top: 13vw;
+    }
+
+}

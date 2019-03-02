@@ -4,23 +4,25 @@ nav {
     background: #ffc108;
     box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.4588235294117647);
 }
-#logo img{
-    top: 55px;
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-}
+
 li #logo img{
-    top: 0;
     margin: 0 auto;
     display: block;
-    width: 100px;
-    left: -50px;
+    width: 12vw;
+    max-width: 10vw;
+    top: -3.5vw;
+}
+nav ul{
+    padding-top: 10px;
 }
 nav a{
     color: #50606a;
     position: relative;
     font-weight: 900;
+    font-family: minions-font;
+}
+nav.fixed-top{
+    top: 30px;
 }
 nav a:hover {
     text-decoration: none;
@@ -52,4 +54,13 @@ nav a:hover::after {
 #logo.mobile img{
     top: 0;
     width: 4rem;
+}
+
+.logo-li{
+    width: 12vw;
+    max-width: 10vw;
+}
+
+nav button.navbar-toggler{
+    border: 1px solid black;
 }
