@@ -11,16 +11,21 @@ nav {
     width: 75%;
 }
 li #logo img{
-    top: 0;
     margin: 0 auto;
     display: block;
-    width: 100px;
-    left: -50px;
+    width: 150px;
+}
+nav ul{
+    padding-top: 10px;
 }
 nav a{
     color: #50606a;
     position: relative;
     font-weight: 900;
+    font-family: minions-font;
+}
+nav.fixed-top{
+    top: 30px;
 }
 nav a:hover {
     text-decoration: none;
@@ -52,4 +57,9 @@ nav a:hover::after {
 #logo.mobile img{
     top: 0;
     width: 4rem;
+}
+
+.logo-li{
+    width: 12vw;
+    max-width: 10vw;
 }

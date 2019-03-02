@@ -1,4 +1,8 @@
 @font-face {
     font-family: minions-font;
     src: url(../font/MODERNA_.TTF);
-  }
+}
+
+*{
+    font-family: 'minions-font';
+}
