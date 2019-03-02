@@ -4,16 +4,13 @@ nav {
     background: #ffc108;
     box-shadow: 1px 1px 15px 10px rgba(0, 0, 0, 0.4588235294117647);
 }
-#logo img{
-    top: 55px;
-    margin: 0 auto;
-    display: block;
-    width: 75%;
-}
+
 li #logo img{
     margin: 0 auto;
     display: block;
-    width: 150px;
+    width: 12vw;
+    max-width: 10vw;
+    top: -3.5vw;
 }
 nav ul{
     padding-top: 10px;
@@ -62,4 +59,10 @@ nav a:hover::after {
 .logo-li{
     width: 12vw;
     max-width: 10vw;
+}
+
+@media screen and (max-width: 900px) {
+    nav.fixed-top{
+        top: 0px;
+    }
 }
