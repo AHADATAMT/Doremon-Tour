@@ -17,11 +17,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/ticket.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/lib/bootstrap4.css">
+    <script type="text/javascript" src="js/lib/jquery331.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"
-        integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lib/slick-theme.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lib/slick.css">
 
 </head>
 
@@ -42,7 +41,7 @@
                     <a class="text-uppercase" href="#news">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Tickets</a>
+                    <a class="text-uppercase" href="#tickets">Tickets</a>
                 </li>
                 <li class="nav-item logo-li">
                     <a id="logo" href="#" class="d-none d-lg-block position-relative"><img class="position-absolute"
@@ -52,7 +51,7 @@
                     <a class="text-uppercase" href="#">Sponsors</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Shop</a>
+                    <a class="text-uppercase" href="#shop">Shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="text-uppercase" href="#">Organizers</a>
@@ -72,6 +71,13 @@
         </div>
     </header>
     <main>
+        <div class="container">
+            <div class="container-line">
+                <span class="title_section">
+                    Events Section
+                </span>
+            </div>
+        </div>
         <section id="events">
             <div class="container">
                 <div class="card border-light text-center">
@@ -149,6 +155,13 @@
                 </div>
             </div>
         </section>
+        <div class="container">
+            <div class="container-line">
+                <span class="title_section">
+                    News Section
+                </span>
+            </div>
+        </div>
         <section id="news">
             <div class="container pt-5">
                 <div class="card-columns">
@@ -223,108 +236,172 @@
                     </div>
                 </div>
             </div>
-
         </section>
-        <section id="sponsors"></section>
-        <section id="shop">
-
-        </section>
-    </main>
-
-
-    <div style="height:2px; background-color: #ffc108; text-align: center">
-        <span class="title_section" style="background-color: white; position: relative; top: -0.8em;">
-            Ticket Section
-        </span>
-    </div>
-
-
-
-    <div class="container pt-5">
-        <div class="card-deck text-center ">
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-                    <h3 class="card-title">NORMAL</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaas</li>
-                    </ul>
-                    <h3>USD25/per
-
-                    </h3>
-                </div>
-                <div class="card-footer bg-dark "><a class="btn btn-lg btn_buy text-dark" href="#">BUY NOW</a></div>
-            </div>
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-                    <h3 class="card-title">GROUP PURCHASE</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaa</li>
-                    </ul>
-                    <h3>USD20/per
-
-                    </h3>
-                </div>
-                <div class="card-footer bg-dark btn-warning"><a class="btn btn-lg btn_buy text-dark"
-                        href="checkout.html">BUY NOW
-                    </a></div>
-            </div>
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-                    <h3 class="card-title">VIP</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>aaaaaaaaaaaaaa</li>
-                        <li>Maaaaaaaaaaaaaa</li>
-                        <li>aaaaaaaaaaaaaa</li>
-                    </ul>
-                    <h3>USD35/per</h3>
-                </div>
-                <div class="card-footer bg-dark"><a class="btn btn-lg btn_buy text-dark"
-                        href="http://www.coderschool.vn/vn/tracks/machine-learning" target="_blank">BUY NOW</a></div>
+        <div class="container">
+            <div class="container-line">
+                <span class="title_section">
+                    Ticket Section
+                </span>
             </div>
         </div>
-    </div>
-    </section>
-    <section id="sponsors"></section>
-    <section id="shop">
-        <div class="container">
-            <div class="row">
-                <div class="card-desk">
-                    <div class="card">
+        <section id="tickets">
+            <div class="container pt-5">
+                <div class="card-deck text-center">
+                    <div class="card mb-4 box-shadow border border-warning">
+                        <div class="card-header bg-warning">
+                            <h3 class="card-title">NORMAL</h3>
+                        </div>
                         <div class="card-body">
-                            <img src="" alt="">
-                            <p class="title-card">
-                                Product A
-                            </p>
-                            <p class="description">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Tenetur saepe, magnam cum
-                                aliquam voluptatibus odio possimus fuga
-                            </p>
-                            <p class="price"></p>
-                            <a class="btn btn-lg mini-btn text-uppercase mt-sm-5 font-weight-bold" href="#">WISHLIST</a>
+
+                            <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                            <ul class="list-unstyled my-4">
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaas</li>
+                            </ul>
+                            <h3>USD25/per
+
+                            </h3>
+                        </div>
+                        <div class="card-footer bg-dark "><a class="btn btn-lg btn_buy text-dark" href="#">BUY NOW</a>
+                        </div>
+                    </div>
+                    <div class="card mb-4 box-shadow border border-warning">
+                        <div class="card-header bg-warning">
+                            <h3 class="card-title">GROUP PURCHASE</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                            <ul class="list-unstyled my-4">
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaa</li>
+                            </ul>
+                            <h3>USD20/per
+
+                            </h3>
+                        </div>
+                        <div class="card-footer bg-dark btn-warning"><a class="btn btn-lg btn_buy text-dark"
+                                href="checkout.html">BUY NOW
+                            </a></div>
+                    </div>
+                    <div class="card mb-4 box-shadow border border-warning">
+                        <div class="card-header bg-warning">
+                            <h3 class="card-title">VIP</h3>
+                        </div>
+                        <div class="card-body">
+
+                            <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                            <ul class="list-unstyled my-4">
+                                <li>aaaaaaaaaaaaaa</li>
+                                <li>Maaaaaaaaaaaaaa</li>
+                                <li>aaaaaaaaaaaaaa</li>
+                            </ul>
+                            <h3>USD35/per</h3>
+                        </div>
+                        <div class="card-footer bg-dark"><a class="btn btn-lg btn_buy text-dark"
+                                href="http://www.coderschool.vn/vn/tracks/machine-learning" target="_blank">BUY NOW</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        <section id="sponsors"></section>
+        <div class="container">
+                <div class="container-line">
+                    <span class="title_section">
+                        Shop Section
+                    </span>
+                </div>
+            </div>
+        <section id="shop">
+            <div class="container">
+                <div class="card-desk">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/1.jpg" alt="">
+                            <p class="title-card">
+                                Product A
+                            </p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <p class="price">
+                                <del>100$</del><br>
+                                <span>5$</span>
+                            </p>
+                            <a class="btn btn-lg mini-btn text-uppercase font-weight-bold" href="#">WISHLIST</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/2.jpg" alt="">
+                            <p class="title-card">
+                                Product B
+                            </p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <p class="price">
+                                <del>100$</del><br>
+                                <span>5$</span>
+                            </p>
+                            <a class="btn btn-lg mini-btn text-uppercase font-weight-bold" href="#">WISHLIST</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/3.jpg" alt="">
+                            <p class="title-card">
+                                Product C
+                            </p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <p class="price">
+                                <del>100$</del><br>
+                                <span>5$</span>
+                            </p>
+                            <a class="btn btn-lg mini-btn text-uppercase font-weight-bold" href="#">WISHLIST</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/5.jpg" alt="">
+                            <p class="title-card">
+                                Product D
+                            </p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <p class="price">
+                                <del>100$</del><br>
+                                <span>5$</span>
+                            </p>
+                            <a class="btn btn-lg mini-btn text-uppercase font-weight-bold" href="#">WISHLIST</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="img/4.jpeg" alt="">
+                            <p class="title-card">
+                                Product E
+                            </p>
+                            <p class="description">
+                                Lorem ipsum dolor sit amet consectetur
+                            </p>
+                            <p class="price">
+                                <del>100$</del><br>
+                                <span>5$</span>
+                            </p>
+                            <a class="btn btn-lg mini-btn text-uppercase font-weight-bold" href="#">WISHLIST</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
     <footer>
         <div class="container pt-2">
@@ -385,7 +462,8 @@
                         </li>
                         <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">Cookies</a>
                         </li>
-                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">FAQ</a></li>
+                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">FAQ</a>
+                        </li>
 
                     </ul>
                 </div>
@@ -426,8 +504,9 @@
 
     </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="js/lib/slick.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+
 </html>

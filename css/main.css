@@ -4,7 +4,7 @@
 }
 
 *{
-    font-family: 'minions-font';
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 500px) {
@@ -18,6 +18,7 @@
         font-size: 4.5rem;
     }
 }
+
 @media screen and (max-width: 990px) {
     * {
         font-size: 16px;
@@ -39,4 +40,28 @@
         padding-top: 13vw;
     }
 
+}
+.slick-next::before,
+.slick-prev::before{
+   color: black !important;
+}
+
+section {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.container-line{
+    width: 50%;
+    margin: 5rem auto 3rem;
+    height:2px; 
+    background-color: #ffc108;
+    text-align: center;
+}
+.container-line span{
+    background-color: white; 
+    position: relative; 
+    top: -0.8em;
+    padding: 0 15px;
+    font-family: minions-font;
 }

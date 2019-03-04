@@ -1,0 +1,30 @@
+#shop .card{
+    text-align: center;
+    border: none;
+
+}
+
+#shop .card img{
+    width: 50%;
+    margin: 0 auto;
+}
+
+#shop .title-card{
+    font-weight: 900
+}
+
+#shop mini-btn{
+    padding-top: 15px
+}
+
+#shop del {
+    color: #bf1616;
+}
+#shop .title-card{
+    margin: 1rem 0 .5rem;
+}
+.description{
+    margin-bottom: 0;
+    color: gray;
+    padding: 0 2rem;
+}
