@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>MINIONS</title>
+    <link rel="icon" href="img/favicon.png" type="image/gif">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/contactus.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/event.css">
@@ -17,9 +18,10 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/ticket.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/lib/bootstrap4.css">
+    <script type="text/javascript" src="js/lib/jquery331.js"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lib/slick-theme.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/lib/slick.css">
 
 </head>
 
@@ -40,20 +42,20 @@
                     <a class="text-uppercase" href="#news">News</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Tickets</a>
+                    <a class="text-uppercase" href="#tickets">Tickets</a>
                 </li>
                 <li class="nav-item logo-li">
                     <a id="logo" href="#" class="d-none d-lg-block position-relative"><img class="position-absolute"
                             src="img/logo_nav.png" alt=""></a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Sponsors</a>
+                    <a class="text-uppercase" href="#sponsors">Partners</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Shop</a>
+                    <a class="text-uppercase" href="#shop">Shop</a>
                 </li>
                 <li class="nav-item">
-                    <a class="text-uppercase" href="#">Organizers</a>
+                    <a class="text-uppercase" href="aboutme.html">Organizers</a>
                 </li>
             </ul>
         </div>
@@ -63,13 +65,21 @@
             <source src="video/MinionsBananaSong.mp4" type="video/mp4">
         </video>
         <div class="caption">
-            <div class="container">
+            <div class="container minion-font text-uppercase">
                 <h1>Minions <br> World Tour</h1>
-                <a class="btn btn-lg mini-btn text-uppercase mt-sm-5 font-weight-bold" href="#">Get ticket!</a>
+                <a class="btn btn-lg mini-btn text-dark text-uppercase mt-sm-5 font-weight-bold minion-font"
+                    href="#">Get ticket</a>
             </div>
         </div>
     </header>
     <main>
+        <div class="container">
+            <div class="container-line">
+                <span class="title_section">
+                    Events
+                </span>
+            </div>
+        </div>
         <section id="events">
             <div class="container">
                 <div class="card border-light text-center">
@@ -79,27 +89,35 @@
                         <p class="card-text">
                             The Minions is storming Saigon, Vietnam in a blaze of banana this April.
                             <p class="text-justify">That’s right, the mischievous yellow henchmen, along with super
-                                villain
-                                Gru and his girls, Margo, Edith & Agnes are eager to meet their Viet fans at a brand
-                                spanking new studium right in the heart of the young city. Have you got your tickets
-                                yet?
-                            </p>
+                                villain Gru and his girls, Margo, Edith & Agnes are eager to meet their Viet fans at a
+                                brand spanking new studium right in the heart of the young city. Have you got your
+                                tickets yet?</p>
                         </p>
                     </div>
-                    <div class="card-footer bg-gradient-dark">
-                        <a href="#" class="btn btn-warning">SECURE YOUR TICKET</a>
+                    <div class="card-footer bg-dark">
+                        <a class="btn btn-lg btn_buy text-dark" href="#" target="_blank">SECURE YOUR TICKET</a>
+
                     </div>
                 </div>
             </div>
             <div class="container">
                 <div class="card-deck pt-5">
                     <div class="card">
-                        <img src="img/events/this-year.jpg" class="img-fluid" style="height: 298.84px" alt="past-tours" />
+                        <img src="img/events/this-year.jpg" class="img-fluid" alt="past-tours" />
                         <div class="card-body">
                             <h4 class="card-title">FUTURE EVENTS</h4>
+                            <p class="card-title text-uppercase">
+                                Join Gru and his daughters with the mischievous Minions on a heartwarming and thrilling
+                                tour.</p>
                             <p class="card-text">
-                                Join Gru, his daughters and the mischievous Minions on a
-                                heartwarming and thrilling tour.
+                                Minions World Tour can be described as a motion-simulator ride: You sit, buckled into
+                                your seat, while the floor lifts
+                                and tilts and you seemingly careen inside a 3-D movie.</p>
+                            <p>The ride lets you into the home of the seemingly villainous (but otherwise hapless) Gru,
+                                where you bounce, plunge and plummet through a Minion training mission. And all that
+                                excitement ends with a wild dance party. Even waiting to board the ride is entertaining,
+                                with multiple screens showing bits of wisdom from Gru and his right-hand Minions like
+                                Dave, Stuart and Lance.
                             </p>
                         </div>
                         <div class="card-footer bg-dark">
@@ -111,19 +129,27 @@
                                             <h6 class="my-0">Location: Europe & Middle East</h6>
                                         </small>
                                     </div>
-                                    <div class="col-4 pr-0">
-                                        <a href="#" class="btn btn-warning rounded float-right">EXPLORE</a>
+                                    <div class="col-4 pr-0 text-right">
+                                        <a class="btn btn-lg btn_buy text-dark " href="#" target="_blank">EXPLORE</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="card">
-                        <img src="img/events/past-year.jpg" class="img-fluid" style="height: 298.84px" alt="past-tours" />
+                        <img src="img/events/past-year.jpg" class="img-fluid" style="height: 358.88px"
+                            alt="past-tours" />
                         <div class="card-body">
                             <h4 class="card-title">PAST EVENTS</h4>
-                            <p class="card-text">
-                                Relieve the happiest moments of all time.
+                            <p class="card-title text-uppercase">
+                                Relieve the happiest moments of all time.</p>
+                            <p class="card-text">Keep your Minion obsession going by browsing our collection of the
+                                Super Silly Fun Land, which brings alive the carnival
+                                from the first movie with fountains, wet and dry play areas, and the classic-style Silly
+                                Swirly Fun Ride, which gives you a full view of all of the hijinks below.</p>
+                            <p>See how many people won the movie’s famous stuffed unicorns in the game booths, or shop
+                                for them — along with character dolls and a “fart-gun” that really smells
+                                like bananas — in the Minion Mayhem gift shop.
                             </p>
                         </div>
                         <div class="card-footer bg-dark">
@@ -135,8 +161,8 @@
                                             <h6 class="my-0">Location: Asia - Pacific</h6>
                                         </small>
                                     </div>
-                                    <div class="col-4 pr-0">
-                                        <a href="#" class="btn btn-warning rounded float-right">EXPLORE</a>
+                                    <div class="col-4 pr-0 text-right">
+                                        <a class="btn btn-lg btn_buy text-dark " href="#" target="_blank">EXPLORE</a>
                                     </div>
                                 </div>
                             </div>
@@ -146,22 +172,33 @@
             </div>
         </section>
         <section id="news">
-            <div class="container pt-5">
+            <div class="container">
+                <div class="container-line">
+                    <span class="title_section">
+                        Press Corner
+                    </span>
+                </div>
+            </div>
+            <div class="container pt-1">
                 <div class="card-columns">
                     <div class="card">
                         <img src="img/news/news5.jpg" class="card-img-top" alt="recent-news">
                         <div class="card-body">
-                            <h5 class="card-title">Sugary realm of Sweet Surrender</h5>
+                            <h5 class="card-title text-uppercase">Sugary realm <br> of Sweet Surrender</h5>
                             <p class="card-text">This is where you’ll find everything from plush or plastic minions
                                 and unicorns to Minion-inspired sweet treats.</p>
                         </div>
                     </div>
-                    <div class="card p-3">
+                    <div class="card">
+                        <img src="img/events/amMG_9948.jpg" class="card-img-top" alt="...">
                         <blockquote class="blockquote mb-0 card-body">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer class="blockquote-footer">
+                            <p><cite>" My family has done Minions tour several times so we are not new to the
+                                    experience.
+                                    However we never could have foreseen how incredibly better this experience could be
+                                    every time we see the show in a new country. "</cite></p>
+                            <footer class="blockquote-footer text-center">
                                 <small class="text-muted">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                    Brad & Angelina, <cite title="Source Title">Beijing & Sydney 2018</cite>
                                 </small>
                             </footer>
                         </blockquote>
@@ -169,19 +206,19 @@
                     <div class="card">
                         <img src="img/news/news2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">Despicable Weekend continues</h5>
-                            <p class="card-text">At the crazy cool show you can get your groove on with the
-                                all-singing,
+                            <h5 class="card-title text-uppercase">Despicable Weekend continues</h5>
+                            <p class="card-text">At the crazy cool show you can get your groove on with the all-singing,
                                 all-dancing, all-noisy Minions
                                 as they celebrate the park’s opening in typically eccentric Minion style.</p>
                             <p class="card-text"><small class="text-muted">By Lee Moran &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp
                                     <cite>2 weeks ago</cite></small></p>
                         </div>
                     </div>
-                    <div class="card bg-primary text-white text-center p-3">
-                        <blockquote class="blockquote mb-0">
-                            <p>Well, to be frank, it is an outrageous ocular onslaught of retina searing banana yellow,
-                                neon-bright shopfronts and marvellous Minion mayhem.</p>
+                    <div class="card bg-dark text-white text-center p-3">
+                        <blockquote class="blockquote mb-0 font-italic">
+                            <p>" Well, to be frank, it is an outrageous ocular onslaught of retina searing banana
+                                yellow,
+                                neon-bright shopfronts and marvellous Minion mayhem. "</p>
                             <footer class="blockquote-footer text-white">
                                 <small>
                                     Taylor Swift, <cite title="Source Title">New York 2018</cite>
@@ -189,12 +226,18 @@
                             </footer>
                         </blockquote>
                     </div>
-                    <div class="card text-center">
+                    <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Despicable Me, please!</h5>
-                            <p class="card-text">This card has a regular title and short paragraphy of text below it.
-                            </p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-center text-uppercase">Kevin - Stuart - Bob <br>embrace Vogue
+                                magazine</h5>
+                            <p class="card-text">The main characters of Despicable Me finally have their own cover page.
+                                VOUGE Spring - Summer 2018 includes "50 shades of yellow," "Bananas rule the world" and
+                                "Utility Chick."
+                                Plus, Anna Wintour's "How to wear Minions' trickiest trends," our spoof of Despicable Me
+                                and much, much more!
+                                Don’t be yellow — get it on the iPad on March 5th and everywhere else March 16th</p>
+                            <p class="card-text"><small class="text-muted">By Sara Boboltz
+                                    &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp <cite>4 days ago</cite></small></p>
                         </div>
                     </div>
                     <div class="card">
@@ -202,162 +245,240 @@
                     </div>
                     <div class="card p-3 text-right">
                         <blockquote class="blockquote mb-0">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                            <footer class="blockquote-footer">
+                            <p><cite>" Whoever thinks money cannot buy happiness certainly has never bought a ticket to
+                                    this show. "</cite></p>
+                            <footer class="blockquote-footer text-center">
                                 <small class="text-muted">
-                                    Someone famous in <cite title="Source Title">Source Title</cite>
+                                    Ed Sheeran, <cite title="Source Title">Tokyo 2018</cite>
                                 </small>
                             </footer>
                         </blockquote>
                     </div>
                     <div class="card">
+                        <img src="img/news/news10.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
-                            <h5 class="card-title">BREAKS RECORD FOR HIGHEST-GROSSING U.S TOUR</h5>
-                            <p class="card-text">This is another card with title and supporting text below. This card
-                                has some additional content to make it slightly taller overall.</p>
-                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            <h5 class="card-title text-uppercase">Minions troop <br>breaks record for
+                                <br>highest-grossing u.s tour</h5>
+                            <p class="card-text">Domestically, the tour grossed $266.1 million and sold over 2 million
+                                tickets.
+                                Minions also broke their own record for the highest-grossing domestic tour by animated
+                                characters, when it crossed the $181.5 million in August 2018.
+                            </p>
+                            <p class="card-text"><small class="text-muted">By Chris McGonigal
+                                    &nbsp&nbsp&nbsp|&nbsp&nbsp&nbsp <cite>a month ago</cite></small></p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </section>
-        <section id="sponsors"></section>
-        <section id="shop"></section>
     </main>
-
-
-    <div style="height:2px; background-color: #ffc108; text-align: center">
-        <span class="title_section" style="background-color: white; position: relative; top: -0.6em;">
-            Ticket Section
-        </span>
-    </div>
-
-
-
-    <div class="container pt-5">
-        <div class="card-deck text-center ">
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-                    <h3 class="card-title">NORMAL</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>- General Admissions</li>
-                        <li>- No assigned seating</li>
-                        <li>- Normal security check in</li>
-                        <li>- Entrance merchandise</li>
-                    </ul>
-                    <h3>USD <span class="fix-font">25</span>/per
-
-                    </h3>
-                </div>
-                <div class="card-footer bg-dark "><a class="btn btn-lg btn_buy text-dark" href="#">BUY NOW</a></div>
-            </div>
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-                    <h3 class="card-title">VIP</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>- Minions Meet & Greet</li>
-                        <li>- Assigned seating</li>
-                        <li> - VIP check in & pre party</li>
-                        <li> - VIP exclusive merchandise</li>
-                    </ul>
-                    <h3>USD <span class="fix-font">20</span>/per
-
-                    </h3>
-                </div>
-                <div class="card-footer bg-dark btn-warning"><a class="btn btn-lg btn_buy text-dark" href="checkout.html">BUY
-                        NOW
-                    </a></div>
-            </div>
-            <div class="card mb-4 box-shadow border border-warning">
-                <div class="card-header bg-warning">
-
-                    <h3 class="card-title">GROUP PURCHASE</h3>
-                </div>
-                <div class="card-body">
-
-                    <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
-                    <ul class="list-unstyled my-4">
-                        <li>- Up to 10 people allowed</li>
-                        <li>- Assigned seating</li>
-                        <li>- Group check in & drinks</li>
-                        <li> - Group merchandise</li>
-
-
-                    </ul>
-                    <h3>USD <span class="fix-font">35</span>/per</h3>
-                </div>
-                <div class="card-footer bg-dark"><a class="btn btn-lg btn_buy text-dark" href="http://www.coderschool.vn/vn/tracks/machine-learning"
-                        target="_blank">BUY NOW</a></div>
-            </div>
+    <div class="container">
+        <div class="container-line">
+            <span class="title_section">
+                Ticket
+            </span>
         </div>
     </div>
+    <section id="tickets">
+        <div class="container pt-1">
+            <div class="card-deck text-center">
+                <div class="card mb-4 box-shadow border border-warning">
+                    <div class="card-header bg-warning">
+                        <h3 class="card-title">NORMAL</h3>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                        <ul class="list-unstyled my-4">
+                            <li>- General Admissions</li>
+                            <li>- No assigned seating</li>
+                            <li>- Normal security check in</li>
+                            <li>- Entrance merchandise</li>
+                        </ul>
+                        <h3 class="minion-font"><span class="fix-font">$90</span>/person</h3>
+                    </div>
+                    <div class="card-footer bg-dark "><a class="btn btn-lg btn_buy text-dark" href="#">BUY NOW</a></div>
+                </div>
+                <div class="card mb-4 box-shadow border border-warning">
+                    <div class="card-header bg-warning">
+                        <h3 class="card-title">VIP</h3>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                        <ul class="list-unstyled my-4">
+                            <li>- Minions Meet & Greet</li>
+                            <li>- Assigned seating</li>
+                            <li> - VIP check in & pre party</li>
+                            <li> - VIP exclusive merchandise</li>
+                        </ul>
+                        <h3 class="minion-font"><span class="fix-font">$200</span>/person</h3>
+                    </div>
+                    <div class="card-footer bg-dark btn-warning"><a class="btn btn-lg btn_buy text-dark"
+                            href="checkout.html">BUY
+                            NOW
+                        </a></div>
+                </div>
+                <div class="card mb-4 box-shadow border border-warning">
+                    <div class="card-header bg-warning">
+
+                        <h3 class="card-title">GROUP</h3>
+                    </div>
+                    <div class="card-body">
+
+                        <p class="card-text font-weight-bold mb-auto">Terms & Conditions</p>
+                        <ul class="list-unstyled my-4">
+                            <li>- Up to 10 people allowed</li>
+                            <li>- Assigned seating</li>
+                            <li>- Group check in & drinks</li>
+                            <li> - Group merchandise</li>
 
 
-
+                        </ul>
+                        <h3 class="minion-font"><span class="fix-font">$750</span>/group</h3>
+                    </div>
+                    <div class="card-footer bg-dark"><a class="btn btn-lg btn_buy text-dark" href="#"
+                            target="_blank">BUY NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <div class="container-line">
+            <span class="title_section">
+                Our Partners
+            </span>
+        </div>
+    </div>
+    <section id="sponsors" class="text-center">
+        <img src="img/sponsor.png" alt="">
+    </section>
+    <div class="container">
+        <div class="container-line">
+            <span class="title_section">
+                Shop
+            </span>
+        </div>
+    </div>
+    <section id="shop">
+        <div class="container">
+            <div class="card-desk">
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/1.jpg" alt="">
+                        <p class="title-card">
+                            Baby Jumpsuit
+                        </p>
+                        <p class="price">
+                            <del>$50</del><br>
+                            <span>$24.99</span>
+                        </p>
+                        <a class="btn btn-lg mini-btn text-uppercase text-dark" href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/2.jpg" alt="">
+                        <p class="title-card">
+                            Hoodie
+                        </p>
+                        <p class="price">
+                            <del>$250</del><br>
+                            <span>$149.99</span>
+                        </p>
+                        <a class="btn btn-lg mini-btn text-uppercase text-dark" href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/3.jpg" alt="">
+                        <p class="title-card">
+                            Mug
+                        </p>
+                        <p class="price">
+                            <del>$30</del><br>
+                            <span>$29.99</span>
+                        </p>
+                        <a class="btn btn-lg mini-btn text-uppercase text-dark" href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/5.jpg" alt="">
+                        <p class="title-card">
+                            Notebook
+                        </p>
+                        <p class="price">
+                            <del>$20.01</del><br>
+                            <span>$15.59</span>
+                        </p>
+                        <a class="btn btn-lg mini-btn text-uppercase text-dark" href="#">Add to cart</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <img src="img/4.jpeg" alt="">
+                        <p class="title-card">
+                            Doll
+                        </p>
+                        <p class="price">
+                            <del>$50.90</del><br>
+                            <span>$24.99</span>
+                        </p>
+                        <a class="btn btn-lg mini-btn text-uppercase text-dark" href="#">Add to cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
     <footer>
-        <div class="container pt-2">
+        <div class="container pt-2 mt-5">
             <div class="row pt-1">
-                <div class="col-lg-4 col-md-6 d-flex">
+                <div class="col-lg-3 col-md-6 d-flex">
                     <ul class="list-group">
                         <li class="list-group-item border-0 bg-transparent padding-org-text">
-                            <p class="org_text text-uppercase"> OTHER TOURS </p>
+                            <p class="org_text text-uppercase minion-font"> MEET OUR FRIENDS </p>
                         </li>
-                        <li class="list-group-item d-flex flex-row border-0 bg-transparent padding-ava pb-0"><img class="ava"
-                                src="img/doraemon_tour.jpg" alt="p1">
-
+                        <li class="list-group-item d-flex flex-row border-0 bg-transparent padding-ava pb-0"><img
+                                class="ava" src="img/doraemon_tour.jpg" alt="p1">
                             <div class="org-infor-text ">
-                                <p><a class="text-dark" href=""> DORAEMON WORLD</a></p>
+                                <p><a class="text-dark minion-font" href=""> DORAEMON PARK</a></p>
                             </div>
                         </li>
-
-                        <!-- </li>
-                        <li class="list-group-item d-flex flex-row align-items:center border-0 bg-transparent padding-ava"><img
-                                class="ava" src="img/ava2.png" alt="p2">
+                        <li class="list-group-item d-flex flex-row py-0 border-0 bg-transparent padding-ava"><img
+                                class="ava" src="img/pokemon_tour.jpeg" alt="p3">
                             <div class="org-infor-text">
-                                <p>AAAAAAA</p>
-                            </div>
-
-                        </li> -->
-                        <li class="list-group-item d-flex flex-row py-0 border-0 bg-transparent padding-ava"><img class="ava"
-                                src="img/pokemon_tour.jpeg" alt="p3">
-                            <div class="org-infor-text">
-                                <p><a class="text-dark" href=""> POKEMON WORLD</a></p>
+                                <p><a class="text-dark minion-font" href=""> POKEMON RESORT</a></p>
                             </div>
 
                         </li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-6  d-flex">
+                <div class="col-lg-3 col-md-6  d-flex">
                     <ul class="list-group">
                         <li class="list-group-item border-0 bg-transparent">
-                            <p class="extra_text text-uppercase">Resources</p>
+                            <p class="extra_text text-uppercase minion-font">Resources</p>
                         </li>
 
                         <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Venue &
                                 Tickets</a></li>
-                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Entertainment
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#"
+                                class="text-dark">Entertainment
                                 Schedule</a></li>
                         <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Things
                                 to Do</a></li>
-                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">Places to
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Places to
                                 Stay
                             </a></li>
-                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">Character
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Character
                                 Experiences
                             </a></li>
-                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">Buy
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Buy
                                 Merchandise
                             </a></li>
-                        <li class="list-group-item border-0 bg-transparent"><a href="#" class="text-dark">Special
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Special
                                 Occasions
                             </a></li>
                     </ul>
@@ -365,9 +486,10 @@
                 <div class="col-lg-2 col-md-6 d-flex">
                     <ul class="list-group">
                         <li class="list-group-item border-0 bg-transparent">
-                            <p class="extra_text text-uppercase"> Help Center</p>
+                            <p class="extra_text text-uppercase minion-font"> Help Center</p>
                         </li>
-                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Pre-Arrival
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#"
+                                class="text-dark">Pre-Arrival
                                 Tips</a>
                         </li>
                         <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Mobile
@@ -377,7 +499,8 @@
                                 Safety</a></li>
                         <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Guest
                                 Services</a></li>
-                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">FAQ</a></li>
+                        <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">FAQ</a>
+                        </li>
                         <li class="list-group-item border-0 bg-transparent pb-0"><a href="#" class="text-dark">Term
                                 Conditions</a></li>
 
@@ -386,20 +509,21 @@
                 <div class="col-lg-4 col-md-6 d-flex">
                     <ul class="list-group">
                         <li class="list-group-item border-0 bg-transparent">
-                            <p class="font-weight-bolder text-uppercase sub_text"> Subscribe</p>
+                            <p class="font-weight-bolder text-uppercase sub_text minion-font"> Subscribe</p>
                         </li>
                         <li class="list-group-item border-0 bg-transparent">
                             <form class="form-inline d-flex flex-row flex-nowrap">
                                 <div class="form-group mb-2 border-0">
                                     <img class="icon_email" src="img/icon_email.png"> </div>
                                 <div class="form-group mx-sm-2 mb-2">
-                                    <input type="password" class="form-control email_box" id="inputEmail" placeholder="Please enter your email">
+                                    <input type="password" class="form-control email_box" id="inputEmail"
+                                        placeholder="Please enter your email">
                                 </div>
-                                <button type="submit" class="btn mb-2 bg-transparent "> <img class="icon_submit" src="img/icon_submit.png">
+                                <button type="submit" class="btn mb-2 bg-transparent "> <img class="icon_submit"
+                                        src="img/icon_submit.png">
                                 </button>
                             </form>
-                            <p>Subscribe to receive weekly
-                                updates</p>
+                            <p>Subscribe to receive event notifications</p>
                         </li>
                         <li class="mt-2 list-group-item border-0 bg-transparent">
                             <div class="d-flex border-0 bg-transparent justify-content-between">
@@ -410,23 +534,20 @@
                                 <div><a href=""><i class="fab social_icon fa-vimeo fa-2x"></i></a></div>
                             </div>
                         </li>
-                        <!-- <li class="list-group-item bg-transparent about-team-border"> -->
-
-
-                        <!-- </li> -->
                     </ul>
                 </div>
             </div>
-            <div class="row pt-4 justify-content-center">
-                <p class="text-center text-justify">© <span class="fix-font-bottom">2019</span> MINION WORLD EVENTS INC</p>
+            <div class="row pt-4 justify-content-center mt-5">
+                <p class="text-center text-justify minion-font">© <span class="fix-font-bottom">2019</span> MINION WORLD
+                    EVENTS INC. ALL RIGHTS RESERVED.
+                </p>
             </div>
-
         </div>
-
     </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/lib/slick.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 
 </html>
