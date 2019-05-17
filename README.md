@@ -1,3 +1,3 @@
 # projectQ3
-hello
-hi
+Hi!
+Check this: [https://minions-tour.netlify.com/](Minions-tour)
